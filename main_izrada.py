@@ -12,9 +12,9 @@ class MyApp(toga.App):
     def startup(self):
         self.main_window = toga.MainWindow(title="My BeeWare App")
         
-        button1 = toga.Button("Zabilježi plaćanje radnja", on_press=self.open_new_window1, style=Pack(padding=10, background_color='lightblue',width=200, height=50))
+        button1 = toga.Button("Zabilježi plaćanje računa", on_press=self.open_new_window1, style=Pack(padding=10, background_color='lightblue',width=200, height=50))
 
-        button2 = toga.Button("Zabilježi plaćanje stan", on_press=self.open_new_window2, style=Pack(padding=10, background_color='lightgreen', width=200))
+        
         button3 = toga.Button("Prikaži mi sve", on_press=self.open_new_window3, style=Pack(padding=10, background_color='lightcoral', width=200))
 
         self.box = toga.Box(children=[button1, button2, button3], style=Pack(direction=COLUMN, padding=20, alignment=CENTER))
