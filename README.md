@@ -22,6 +22,7 @@ IMPORTANT HINTS:
 The path on your android for database I resolved by importing os, and using relative path determinator:
 
 def connect_db(self):
+
         app_dir = os.path.expanduser('~') #this line will determine suitable directory for database(file .db)
         #You can use it for Windows as  well, as for Android.
 
