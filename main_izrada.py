@@ -86,9 +86,15 @@ class MyApp(toga.App):
 
 #DATABASE PART
     def connect_db(self):
-        konekcija = sqlite3.connect('racuni.db')
+        app_dir = os.path.expanduser('~')
+        data_dir = os.path.join(app_dir, 'my_app_data')
+        if not os.path.exists(data_dir):
+            os.makedirs(data_dir)
+        db_path = os.path.join(data_dir, 'racuni.db')
+        konekcija = sqlite3.connect(db_path)
         c = konekcija.cursor()
 
+        
         table1 = '''
             CREATE TABLE IF NOT EXISTS Racuni_radnja(
             Redni_broj INTEGER PRIMARY KEY,
