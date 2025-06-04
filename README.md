@@ -32,6 +32,9 @@ def connect_db(self):
             os.makedirs(data_dir)
         db_path = os.path.join(data_dir, 'database_name.db')
 
+        print('Path to the database is ', db_path) #Wheather you use the application on windows, without android in 'briefcase create (android)', or on android
+        #device, you will be able to found out where the database_name.db is created.
+ 
         konekcija = sqlite3.connect(db_path)
 #---------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------
