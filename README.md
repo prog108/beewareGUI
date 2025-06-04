@@ -1,15 +1,34 @@
 # beewareGUI
 A GUI made with beeware, android ready, usefull app to mark bills.
 
-First of all check version of Python you will work with.
-Beeware doesn't support Python 3.13 which is newest version at the moment.
-To be able posting the app on older: 32-bytes devices I recommend Python 3.10
+1)        First of all check version of Python you will work with.
+        Beeware doesn't support Python 3.13 which is newest version at the moment.
+        To be able posting the app on older: 32-bytes devices I recommend Python 3.10
+        
+        You can use python versions 3.9 - 3.12
 
-Make a project folder and activate virtual enviroment with:
-Install the enviroment in the folder.
-project_name\Scripts\activate in cmd.
+2)        You must have git installed on Windows
+
+3)    Make a project folder and enter to it with cmd
+
+4)        Install and activate virtual enviroment with:
+        Install the enviroment in the folder: in cmd: py -3.12 -m venv beeware-venv
+                                                      (or any other version of python. I use 'py -3.10'
+                                                           and this project is suitable for older versions of android phones)
+        Then activate it from the folder:
+        in cmd: project_name\Scripts\activate in cmd.
+
+All the steps are on: https://docs.beeware.org/en/latest/tutorial/tutorial-0.html
 
 
+5)         Install briefcase if this is first time this is installed on your PC:
+           python -m pip install briefcase
+           If you already have it installed, you can type in cmd: briefcase new
+
+6)        Enter the project folder: cd project_name
+          And run it in developers mode: briefcase dev
+
+7)
 
 
 
