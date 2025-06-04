@@ -24,11 +24,13 @@ All the steps are on: https://docs.beeware.org/en/latest/tutorial/tutorial-0.htm
 5)         Install briefcase if this is first time this is installed on your PC:
            python -m pip install briefcase
            If you already have it installed, you can type in cmd: briefcase new
+       Now be carefull what to type in: By default everything is set up for Hello World project Beeware offers you for the start.
+       But, to see my project we should have same Formal Name, App Name, Bundle....
 
-6)        Enter the project folder: cd project_name
+7)        Enter the project folder: cd project_name
           And run it in developers mode: briefcase dev
 
-7)
+8)
 
 
 
