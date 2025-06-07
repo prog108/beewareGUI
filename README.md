@@ -37,13 +37,24 @@ All the steps are on: https://docs.beeware.org/en/latest/tutorial/tutorial-0.htm
                 or for emulets and physical devices(android phones): 'briefcase create android'.
                 After that choose: 'briefcase run (android)'. That will execute 'briefcase build (android)'
                 as well.
+               After "briefcase run android" you will be asked 1) Create a new Android emulator if you didn't install 
+        one already. Third option is that you connect your android phone on usb port of your personal computer.
+        On your phone go to SETTINGS, ABOUT PHONE: tap 7 times on version of device and you will enable DEVELOPER'S
+        MODE. After that find OPTIONS FOR DEVELOPERS and enable DEBUGGING VIA USB.
+        Enable INSTALLATION VIA USB or INSTALLATION  FROM UNKOWN SOURCES(not obligatory on every android to do that).
+
 
        
-?) After "briefcase run android" you will be asked 1) Create a new Android emulator if you didn't install 
-one already. Third option is that you connect your android phone on usb port of your personal computer.
-On your phone go to SETTINGS, ABOUT PHONE: tap 7 times on version of device and you will enable DEVELOPER'S
-MODE. After that find OPTIONS FOR DEVELOPERS and enable DEBUGGING VIA USB.
-Enable INSTALLATION VIA USB or INSTALLATION  FROM UNKOWN SOURCES(not obligatory on every android to do that).
+11)          'Briefcase package' will create ready project (šta je ovo zapravo?)
+
+12)              On the beeware tutorial site: for changing the app is enough every time to choose: 'briefcase update'
+                or 'briefcase run update'. But that is not enough to update it for android distribution. For this purpose
+                you should execute step 9) above.
+
+             
+
+
+       
 
 IMPORTANT HINTS:
 
