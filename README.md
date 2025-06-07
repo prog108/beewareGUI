@@ -30,9 +30,15 @@ All the steps are on: https://docs.beeware.org/en/latest/tutorial/tutorial-0.htm
 7)        Enter the project folder: cd project_name
           And run it in developers mode: briefcase dev
 
-8)
+8)         When you want to edit the application the file you can edit is in the path project_name/src/project_name/app.py
+                If you want to check my application, skip this step.
 
+9)         Any editing or even to start this application will require command in cmd: 'briefcase create' 
+                or for emulets and physical devices(android phones): 'briefcase create android'.
+                After that choose: 'briefcase run (android)'. That will execute 'briefcase build (android)'
+                as well.
 
+       
 ?) After "briefcase run android" you will be asked 1) Create a new Android emulator if you didn't install 
 one already. Third option is that you connect your android phone on usb port of your personal computer.
 On your phone go to SETTINGS, ABOUT PHONE: tap 7 times on version of device and you will enable DEVELOPER'S
