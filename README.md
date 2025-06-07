@@ -33,7 +33,11 @@ All the steps are on: https://docs.beeware.org/en/latest/tutorial/tutorial-0.htm
 8)
 
 
-
+?) After "briefcase run android" you will be asked 1) Create a new Android emulator if you didn't install 
+one already. Third option is that you connect your android phone on usb port of your personal computer.
+On your phone go to SETTINGS, ABOUT PHONE: tap 7 times on version of device and you will enable DEVELOPER'S
+MODE. After that find OPTIONS FOR DEVELOPERS and enable DEBUGGING VIA USB.
+Enable INSTALLATION VIA USB or INSTALLATION  FROM UNKOWN SOURCES(not obligatory on every android to do that).
 
 IMPORTANT HINTS:
 
