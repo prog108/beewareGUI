@@ -1,4 +1,10 @@
 # beewareGUI
+
+I uploaded two main files: one(Main_for_windows) that you can run in Windows(for example from Visual Studio Code) 
+simply by choossing: "Run Or Debug..." and "Run Python File".
+Second file is Main_for_android. To run it, you must follow the instructions below.
+
+
 A GUI made with beeware, android ready, usefull app to mark bills.
 
 1)        First of all check version of Python you will work with.
@@ -45,7 +51,7 @@ All the steps are on: https://docs.beeware.org/en/latest/tutorial/tutorial-0.htm
 
 
        
-11)          'Briefcase package' will create ready project (šta je ovo zapravo?)
+11)          'Briefcase package' will create ready project. It takes your application and prepares it for distribution, creating all the necessary installation files.
 
 12)              On the beeware tutorial site: for changing the app is enough every time to choose: 'briefcase update'
                 or 'briefcase run update'. But that is not enough to update it for android distribution. For this purpose
