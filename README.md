@@ -59,17 +59,19 @@ All the steps are on: https://docs.beeware.org/en/latest/tutorial/tutorial-0.htm
        There you will find 'OPTIONS FOR DEVELOPER'. A new option taht just appeared after that mentioned 7 times pressing.
        Enter to the 'Options for developers' and toogle to enable it. Scroll down and toogle 'UKLANJANJE POGREŠAKA PUTEM USB-A'.
        In English 'Enable debbuging from/via usb'.
-        MODE. After that find OPTIONS FOR DEVELOPERS and enable DEBUGGING VIA USB.
+       Now you will be ready to transfer the application on your phone. If the error occurs you still should do these 2 things:
         Enable INSTALLATION VIA USB or INSTALLATION  FROM UNKOWN SOURCES(not obligatory on every android to do that).
 
-
        
-11)          'Briefcase package' will create ready project. It takes your application and prepares it for distribution, creating all the necessary installation files.
+11)          In cmd: 'Briefcase package' will create ready project. It takes your application and prepares it for distribution, creating all the necessary installation files.
 
 12)              On the beeware tutorial site: for changing the app is enough every time to choose: 'briefcase update'
                 or 'briefcase run update'. But that is not enough to update it for android distribution. For this purpose
                 you should execute step 9) above.
+13)       Shortly, to transfer the app on the phone use: 'briefcase create android' - every time you change something.
+          Then type: 'briefcase run android'.
 
+      Good luck.
              
 
 
