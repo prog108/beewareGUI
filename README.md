@@ -2,6 +2,13 @@
 
 I uploaded two main files: one(Main_for_windows) that you can run in Windows(for example from Visual Studio Code) 
 simply by choossing: "Run Or Debug..." and "Run Python File".
+For this to run properly you must install: pip install DateTime
+                                           pip install db-sqlite3
+                                           pip install toga
+
+
+
+
 Second file is Main_for_android. To run it, you must follow the instructions below.
 
 
@@ -20,18 +27,20 @@ A GUI made with beeware, android ready, usefull app to mark bills.
 4)        Install and activate virtual enviroment with:
         Install the enviroment in the folder: in cmd: py -3.12 -m venv beeware-venv
                                                       (or any other version of python. I use 'py -3.10'
-                                                           and this project is suitable for older versions of android phones)
+                                                           and in this way project is suitable for older versions of android phones)
         Then activate it from the folder:
-        in cmd: project_name\Scripts\activate in cmd.
+        in cmd write: project_name\Scripts\activate in cmd.
 
 All the steps are on: https://docs.beeware.org/en/latest/tutorial/tutorial-0.html
 
 
 5)         Install briefcase if this is first time this is installed on your PC:
            python -m pip install briefcase
-           If you already have it installed, you can type in cmd: briefcase new
+           If you already have it installed, you can skip it and type in cmd: briefcase new
        Now be carefull what to type in: By default everything is set up for Hello World project Beeware offers you for the start.
-       But, to see my project we should have same Formal Name, App Name, Bundle....
+       Write down: App Name. By default  it is 'helloworld'
+                   Bundle identifier. By default: 'com.example'
+       These two details showed needed when deleting your app with ADB SHELL from android device.
 
 7)        Enter the project folder: cd project_name
           And run it in developers mode: briefcase dev
@@ -40,12 +49,16 @@ All the steps are on: https://docs.beeware.org/en/latest/tutorial/tutorial-0.htm
                 If you want to check my application, skip this step.
 
 9)         Any editing or even to start this application will require command in cmd: 'briefcase create' 
-                or for emulets and physical devices(android phones): 'briefcase create android'.
-                After that choose: 'briefcase run (android)'. That will execute 'briefcase build (android)'
+                or for emulators and physical devices(android phones): 'briefcase create android'.
+                After that, choose: 'briefcase run (android)'. That will execute 'briefcase build (android)'
                 as well.
                After "briefcase run android" you will be asked 1) Create a new Android emulator if you didn't install 
         one already. Third option is that you connect your android phone on usb port of your personal computer.
-        On your phone go to SETTINGS, ABOUT PHONE: tap 7 times on version of device and you will enable DEVELOPER'S
+        On your phone go to SETTINGS, ABOUT PHONE: tap 7 times on version of device:"Version code" or "Intermediate version number".
+        On my phone this is 'BROJ MEĐUVERZIJE' and you will enable DEVELOPER'S. Exit 'About phone' and enter "System", in my case "SUSTAV".
+       There you will find 'OPTIONS FOR DEVELOPER'. A new option taht just appeared after that mentioned 7 times pressing.
+       Enter to the 'Options for developers' and toogle to enable it. Scroll down and toogle 'UKLANJANJE POGREŠAKA PUTEM USB-A'.
+       In English 'Enable debbuging from/via usb'.
         MODE. After that find OPTIONS FOR DEVELOPERS and enable DEBUGGING VIA USB.
         Enable INSTALLATION VIA USB or INSTALLATION  FROM UNKOWN SOURCES(not obligatory on every android to do that).
 
