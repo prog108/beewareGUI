@@ -50,7 +50,8 @@ All the steps are on: https://docs.beeware.org/en/latest/tutorial/tutorial-0.htm
 
 
        Now be carefull what to type in: By default everything is set up for 'Hello World' project Beeware offers you for the start.
-       Write down: App Name. By default  it is 'helloworld'
+       Write down: Formal Name: 'Hello World' by default. That will be your main class name.
+                    App Name. By default  it is 'helloworld'
                    Bundle identifier. By default: 'com.example'
        These two details showed needed when deleting your app with ADB SHELL from android device.
 
@@ -58,20 +59,28 @@ All the steps are on: https://docs.beeware.org/en/latest/tutorial/tutorial-0.htm
         In one step you choose framework to work with. Toga is by default. If you know some other from the list to
        work with, you are able to pick it.
 
-
+        With this step you got the files to work with and a done 'Hello Wolrd' project.
+       Navigate to project_name(helloworld)\src\project_name(helloworld).
+       Here is app.py where you can make any update you want.
 
 
 7)        Enter the project folder: cd project_name
           And run it in developers mode: briefcase dev
+          Now you see your empty GUI.
 
-8)         When you want to edit the application the file you can edit is in the path project_name/src/project_name/app.py
-                If you want to check my application, skip this step.
+9)         When you want to edit the application the file you can edit is in the path project_name/src/project_name/app.py
+                If you want to check my application, copy paste the code from Main_for_android.py to that app.py.
+       I left Formal name 'Hello World' simply to not complicate when first time starting it.
+       Whenever you want quick check on what the app looks like when editing: choose 'briefcase dev' from root folder of project
 
-9)         Any editing or even to start this application will require command in cmd: 'briefcase create' 
-                or for emulators and physical devices(android phones): 'briefcase create android'.
+11)            'Briefcase create' will make first packaging ready to publish.
+               Any editing or even to start this application when makeing updates and new versions
+               will require command in cmd: 'briefcase create' 
+                As well for emulators and physical devices(android phones): 'briefcase create android'.
                 After that, choose: 'briefcase run (android)'. That will execute 'briefcase build (android)'
                 as well.
-               After "briefcase run android" you will be asked 1) Create a new Android emulator if you didn't install 
+
+13)        After "briefcase run android" you will be asked 1) Create a new Android emulator if you didn't install 
         one already. Third option is that you connect your android phone on usb port of your personal computer.
         On your phone go to SETTINGS, ABOUT PHONE: tap 7 times on version of device:"Version code" or "Intermediate version number".
         On my phone this is 'BROJ MEĐUVERZIJE' and you will enable DEVELOPER'S. Exit 'About phone' and enter "System", in my case "SUSTAV".
@@ -82,12 +91,12 @@ All the steps are on: https://docs.beeware.org/en/latest/tutorial/tutorial-0.htm
         Enable INSTALLATION VIA USB or INSTALLATION  FROM UNKOWN SOURCES(not obligatory on every android to do that).
 
        
-11)          In cmd: 'Briefcase package' will create ready project. It takes your application and prepares it for distribution, creating all the necessary installation files.
+14)          In cmd: 'Briefcase package' will create ready project. It takes your application and prepares it for distribution, creating all the necessary installation files.
 
-12)              On the beeware tutorial site: for changing the app is enough every time to choose: 'briefcase update'
+15)              On the beeware tutorial site: for changing the app is enough every time to choose: 'briefcase update'
                 or 'briefcase run update'. But that is not enough to update it for android distribution. For this purpose
                 you should execute step 9) above.
-13)       Shortly, to transfer the app on the phone use: 'briefcase create android' - every time you change something.
+16)       Shortly, to transfer the app on the phone use: 'briefcase create android' - every time you change something.
           Then type: 'briefcase run android'.
 
       Good luck.
