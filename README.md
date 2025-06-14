@@ -95,7 +95,7 @@ All the steps are on: https://docs.beeware.org/en/latest/tutorial/tutorial-0.htm
 
        
 14)          In cmd: 'Briefcase package' will create installer. It takes your application and prepares it for distribution, creating all the necessary installation files.
-
+              Execute that before making it android ready. I.E. before 'briefcase create/build/run/ android'
 15)              On the beeware tutorial site: for changing the app, it is enough every time to choose: 'briefcase update'
                 or 'briefcase run update'. But that is not enough to update it for android distribution. For this purpose
                 you should execute step 16).
@@ -136,6 +136,7 @@ def connect_db(self):
 THINGS TO CONSIDER:
 #---------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------
+
 Toga table doesn't have a lot of functions to edit the style.
 The row that sums all the numbers is not possible to differenciate from the 
 rest of the rows. Neither by color, font or to put it on the bottom of
