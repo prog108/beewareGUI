@@ -39,18 +39,27 @@ A GUI made with beeware, android ready, usefull app to mark bills.
                                                       (or any other version of python. I use 'py -3.10'
                                                            and in this way project is suitable for older versions of android phones)
         Then activate it from the folder:
-        in cmd write: project_name\Scripts\activate in cmd.
+        in cmd write: beeware-venv\Scripts\activate in cmd.   Watch out for difference in '\' and '/'.
 
 All the steps are on: https://docs.beeware.org/en/latest/tutorial/tutorial-0.html
 
 
 5)         Install briefcase if this is first time this is installed on your PC:
            python -m pip install briefcase
-           If you already have it installed, you can skip it and type in cmd: briefcase new
-       Now be carefull what to type in: By default everything is set up for Hello World project Beeware offers you for the start.
+           If you already have it installed, you can skip it and type in cmd: 'briefcase new'
+
+
+       Now be carefull what to type in: By default everything is set up for 'Hello World' project Beeware offers you for the start.
        Write down: App Name. By default  it is 'helloworld'
                    Bundle identifier. By default: 'com.example'
        These two details showed needed when deleting your app with ADB SHELL from android device.
+
+
+        In one step you choose framework to work with. Toga is by default. If you know some other from the list to
+       work with, you are able to pick it.
+
+
+
 
 7)        Enter the project folder: cd project_name
           And run it in developers mode: briefcase dev
