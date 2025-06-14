@@ -79,8 +79,9 @@ All the steps are on: https://docs.beeware.org/en/latest/tutorial/tutorial-0.htm
                Any editing or even to start this application when makeing updates and new versions
                will require command in cmd: 'briefcase create' 
                 As well for emulators and physical devices(android phones): 'briefcase create android'.
-                After that, choose: 'briefcase run (android)'. That will execute 'briefcase build (android)'
-                as well.
+                 Choose: 'briefcase build (android)'. That will compile the project.
+            To run all done project: execute 'briefcase run (android)'
+                
 
 13)        After "briefcase run android" you will be asked 1) Create a new Android emulator if you didn't install 
         one already. Third option is that you connect your android phone on usb port of your personal computer.
@@ -88,16 +89,16 @@ All the steps are on: https://docs.beeware.org/en/latest/tutorial/tutorial-0.htm
         On my phone this is 'BROJ MEĐUVERZIJE' and you will enable DEVELOPER'S. Exit 'About phone' and enter "System", in my case "SUSTAV".
        There you will find 'OPTIONS FOR DEVELOPER'. A new option taht just appeared after that mentioned 7 times pressing.
        Enter to the 'Options for developers' and toogle to enable it. Scroll down and toogle 'UKLANJANJE POGREŠAKA PUTEM USB-A'.
-       In English 'Enable debbuging from/via usb'.
+       In English 'ENABLE DEBUGGING FROM/VIA USB'.
        Now you will be ready to transfer the application on your phone. If the error occurs you still should do these 2 things:
-        Enable INSTALLATION VIA USB or INSTALLATION  FROM UNKOWN SOURCES(not obligatory on every android to do that).
+        Enable INSTALLATION VIA USB or INSTALLATION  FROM UNKOWN SOURCES(not obligatory on every android phone to do that).
 
        
-14)          In cmd: 'Briefcase package' will create ready project. It takes your application and prepares it for distribution, creating all the necessary installation files.
+14)          In cmd: 'Briefcase package' will create installer. It takes your application and prepares it for distribution, creating all the necessary installation files.
 
-15)              On the beeware tutorial site: for changing the app is enough every time to choose: 'briefcase update'
+15)              On the beeware tutorial site: for changing the app, it is enough every time to choose: 'briefcase update'
                 or 'briefcase run update'. But that is not enough to update it for android distribution. For this purpose
-                you should execute step 9) above.
+                you should execute step 16).
 16)       Shortly, to transfer the app on the phone use: 'briefcase create android' - every time you change something.
           Then type: 'briefcase run android'.
 
