@@ -144,4 +144,26 @@ the table.
 #---------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------
 
-        
+If you installed an application to your emulator or android and new version cannot overwrite it totally,
+you need to erase it from the phone.
+Uninstalling it will not erase some memory that might cause errors with new installation.
+On Windows you can access your phone and emulator via ADB.
+
+To install ADB visit: https://developer.android.com/tools/releases/platform-tools
+Download and install SDK platform-tools for your device.
+
+This step might be crucial: add it to PATH on Windows.
+Otherwise you won't be able access it from everywhere.
+
+On Windows open: System Properties > Advanced system settings > Environment Variables.
+In section System variables, find variable Path and go to Edit.
+Add the path to the directory where you unzipped platform-tools (e.g. C:\path\to\platform-tools).
+Click OK and close all windows.
+For Linux and Mac you have different way to add it to the PATH.
+
+In cmd check the version od adb: 'adb version'
+
+Turn on the emulator or android device through usb cable and check if it is recognized: 'adb devices'
+
+
+
