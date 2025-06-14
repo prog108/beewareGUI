@@ -2,6 +2,7 @@
 #-------------------------------------------------------------------------------------
 # FOR WINDOWS
 #-------------------------------------------------------------------------------------
+
 I uploaded two main files: one(Main_for_windows.py) that you can run in Windows(for example from Visual Studio Code) 
 simply by choossing: "Run Or Debug..." and "Run Python File".
 For this to run properly you must install: pip install DateTime
@@ -11,6 +12,7 @@ For this to run properly you must install: pip install DateTime
 #-------------------------------------------------------------------------------------
 # FOR ANDROID ONLY
 #-------------------------------------------------------------------------------------
+
 Second file is Main_for_android.py. To run it, you must follow the instructions below.
 The difference from the Main_for_windows.py is only in database positioning, in start of 
 constructor of the main class and in calling the whole application to run it on the bottom
