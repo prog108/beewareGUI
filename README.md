@@ -178,4 +178,9 @@ When nothing appears in cmd that's ok.
 You can install the application again with: 'briefcase create android', 'briefcase run android'. Choose number of the device
 when it asks you.
 
+When this is not enough, although the app works on PC with 'briefcase dev' or 'briefcase run',
+try repeating all the steps above for cleaning the device from old versions of the app
+and continue with this: 'adb shell rm -rf /data/data/com.example.helloworld'
+
+Install it again on the device.
 
