@@ -165,5 +165,17 @@ In cmd check the version od adb: 'adb version'
 
 Turn on the emulator or android device through usb cable and check if it is recognized: 'adb devices'
 
+With command 'adb shell pm list packages' you will find all apckages on your phone
+If you used my application the package name will be: com.example.helloworld.
+These are Bundle identifier followed by app Name which you specified after executing 'briefcase new'.
+
+To uninstall the package: 'adb uninstall --user 0 com.example.helloworld' is usually enough.
+To erase totally everything: 'adb shell pm clear com.example.helloworld'.
+
+Check if the package is still on the emulator/android: 'adb shell pm list packages | findstr com.example.helloworld'.
+When nothing appears in cmd that's ok.
+
+You can install the application again with: 'briefcase create android', 'briefcase run android'. Choose number of the device
+when it asks you.
 
 
