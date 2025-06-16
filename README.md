@@ -1,9 +1,16 @@
 # beewareGUI
 
+
+![Snimka zaslona (202)](https://github.com/user-attachments/assets/aac6373a-8ce6-4d28-9177-f41a4cb6b3f9)
+
+
+
+
 ![Snimka zaslona (204)](https://github.com/user-attachments/assets/f89a0ca2-e44c-4494-89ee-a109ea6fe0b1)
 
 
 
+![Snimka zaslona (205)](https://github.com/user-attachments/assets/56566dba-a539-4d83-9589-1b128436512a)
 
 
 
