@@ -33,8 +33,8 @@
 # FOR WINDOWS
 #-------------------------------------------------------------------------------------
 
-I uploaded two main files: one(Main_for_windows.py) that you can run in Windows(for example from Visual Studio Code) 
-simply by choossing: "Run Or Debug..." and "Run Python File".
+I uploaded two main files: one (Main_for_windows.py) which you can run on Windows(for example from Visual Studio Code) 
+simply by choosing: "Run Or Debug..." and "Run Python File".
 For this to run properly you must install: pip install DateTime
                                            pip install db-sqlite3
                                            pip install toga
