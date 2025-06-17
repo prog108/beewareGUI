@@ -3,6 +3,7 @@
 ![Snimka zaslona (209)](https://github.com/user-attachments/assets/c9fab7ee-8611-4421-a6ca-970372f28fcc)
 
 
+![Snimka zaslona (210)](https://github.com/user-attachments/assets/feaf80cd-db83-481c-b518-04e7dfa9970f)
 
 
 ![Snimka zaslona (202)](https://github.com/user-attachments/assets/aac6373a-8ce6-4d28-9177-f41a4cb6b3f9)
@@ -16,6 +17,7 @@
 
 ![Snimka zaslona (205)](https://github.com/user-attachments/assets/56566dba-a539-4d83-9589-1b128436512a)
 
+![Snimka zaslona (211)](https://github.com/user-attachments/assets/22c05f45-f3d7-43df-9743-7512b72dcf89)
 
 
 
